@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, input{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    color: white;
+    background: rgb(24, 24, 24);
+}
+
+h1{
+    text-shadow: 2px 2px 6px #464646;
+}
+
+#buttoncontainer{
+    padding: 50px 0;
+    text-align: center;
+}
+
+input{
+    color: white;
+    border: 3px solid black;
+    background: linear-gradient(#FC466B 0%, #3F5EFB 100%);
+    box-shadow: 2px 2px 6px black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+input:hover{
+    background: linear-gradient(#ff214e 0%, #4e6cff 100%)
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#container div{
+    margin: 0 25px;
+}
+
+.result1, .result2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#clock{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
