@@ -48,6 +48,7 @@ function StartPrompt(nums) {
             not_guessed.push(nums[i])
         }
     }
+    button.value = "Aggiorna la pagina per ricominciare"
     result.innerHTML += `<div class="result1"><h1>Indovinati: ${guessed}</h1></div>`;
     result.innerHTML += `<div class="result2"><h1>Sbagliati: ${not_guessed}</h1></div>`;
 }
